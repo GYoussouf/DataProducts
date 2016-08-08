@@ -1,0 +1,68 @@
+---
+title       : Can you win against the Computer?
+subtitle    : Game of random number 
+author      : Shirlene Paul
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+
+## Slide 2
+
+What does the Game do ?
+
+-The game is user versus the computer. 
+
+-The user is asked to guess the computer generated number which lies between 1 and 1000.
+
+
+---
+
+## Slide 3
+
+About the Game:
+
+- The game was created using R's Shiny Package which consisted of two elements which works in 
+  conjunction to create the application which later gets deployed using shinyapps.io
+  
+- The two elements that was used were the Server.R and ui.R 
+
+The Server.R file is used for-
+
+- Cointains all the needed information to build the application, performs calculation if needed.
+- In this application for instance, all my calcualtion is done by the server.R file.
+
+
+The second Ui.R file is a key point to visually represent the and control changes in the way apps look.
+
+
+---
+
+## Slide 4
+
+The ui.R file helps controlling all the visual UI Elements of the application which includes the -
+
+* Buttons 
+* Textboxes
+* Various Labels used for displaying text
+
+
+---
+
+## Slide 5
+
+Conclusion
+
+- This project was done as a part of the Developing Data Products Coursera.
+
+- The shiny app in R for deployment.
+
+- The slides were created using Slidify.
+
+- A game to a guess the computer generated number was completed.
